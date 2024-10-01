@@ -135,7 +135,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showString(String.fromCharCode(currentIndex + 65))
 })
 radio.onReceivedValue(function (name, value) {
-    music.play(music.tonePlayable(294, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    music.play(music.tonePlayable(349, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
     basic.showString(name)
 })
 let currentIndex = 0
