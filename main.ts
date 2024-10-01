@@ -149,7 +149,7 @@ let letter1 = ""
 let message = ""
 // Variable for the seventh letter
 // Set radio group
-radio.setGroup(2)
+radio.setGroup(1)
 // Forever loop, add any code you want to run continuously here
 // Add any code that should run continuously
 basic.forever(function () {
